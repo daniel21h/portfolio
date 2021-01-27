@@ -60,6 +60,7 @@
 .description {
   line-height: 1.5;
   font-size: 1.5rem;
+  max-width: 800px;
 }
 
 .code {
@@ -112,6 +113,15 @@
 
 .logo {
   height: 1em;
+}
+
+.details {
+  text-align: center;
+}
+
+.details img {
+  padding: 5rem 0;
+  max-width: 70%;
 }
 
 @media (max-width: 600px) {
